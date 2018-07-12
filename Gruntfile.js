@@ -10,7 +10,7 @@ module.exports = function(grunt) {
       options: {
         swagger: "<%= pkg.swagger.definition %>",
         className: "<%= pkg.swagger.className %>",
-        moduleName: "vue-<%= pkg.swagger.moduleName %>",
+        moduleName: "./api/vue-<%= pkg.swagger.moduleName %>",
         dest: ''
       },
       dist: {

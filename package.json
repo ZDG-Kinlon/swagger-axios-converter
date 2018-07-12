@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/lebean/swagger-axios-converter.git"
+    "url": "git+https://github.com/lebean/swagger-axios-converter.git"
   },
   "keywords": [
     "swagger",
@@ -30,15 +30,19 @@
     "eslint-config-standard": "^7.1.0",
     "eslint-plugin-promise": "^3.5.0",
     "eslint-plugin-standard": "^2.1.1",
-    "grunt": "^1.0.1",
+    "grunt": "^1.0.3",
+    "install": "^0.12.1",
     "swagger-vue": "^1.0.3"
   },
   "swagger": {
-    "definition": "swagger.json",
+    "definition": "./api/swagger.json",
     "className": "API",
     "moduleName": "api-client"
   },
   "directories": {
     "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
